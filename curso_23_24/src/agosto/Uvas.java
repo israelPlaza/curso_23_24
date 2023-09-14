@@ -16,13 +16,13 @@ public class Uvas {
 
         System.out.println(tipo+ " "+ cat+ " " +cantidad);
 
-        if (tipo=="a" || cat==1) {
+        if (tipo=="a" | cat==1) {
             System.out.println("Su uva tipo A de categiría 1 a un precio de 0.20 cts kilo es de:"+cantidad*0.20+" euros.");
-        }else if(tipo =="a"|| cat==2) {
+        }else if(tipo =="a"& cat==2) {
             System.out.println("Su uva tipo A de categiría 2 a un precio de 0.30 cts kilo es de:"+cantidad*0.30+" euros.");
-        }else if (tipo =="b"|| cat==1) {
+        }else if (tipo =="b" & cat==1) {
             System.out.println("Su uva tipo B de categiría 1 a un precio de 0.30 cts kilo es de:"+cantidad*0.30+" euros.");
-        }else if (tipo =="b"|| cat==2) {
+        }else if (tipo =="b"& cat==2) {
             System.out.println("Su uva tipo B de categiría 2 a un precio de 0.50 cts kilo es de:"+cantidad*0.30+" euros.");
         }     
         

@@ -9,7 +9,7 @@ public class VariablesAb16 {
         System.out.print("Escribe el segundo número: ");
         b= sc.nextInt();
         System.out.println("Cambiamos el primer valor por el segundo");
-        System.out.println("Primero "+a+" cambio por... " +b);
+        System.out.println("El primero "+a+" cambio por segundo " +b);
         System.out.println("Y el segundo "+b+" por el primero.. "+a);
         aux=a;
         a=b;

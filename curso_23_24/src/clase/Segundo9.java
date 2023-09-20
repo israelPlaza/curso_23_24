@@ -9,10 +9,10 @@ public class Segundo9 {
 		
         System.out.print("Escriba sus segundos :");
         seg= sc.nextInt();
-        System.out.println("Su tiempo es :");
-        System.out.println(seg+" segundos");
-        System.out.println((seg/60)+" minutos");
+        System.out.print("Su tiempo es :");
+        System.out.print(seg+" segundos  ");
+        System.out.print((seg/60)+" minutos  ");
         min=seg/60;
-        System.out.println((min/60)+" horas");
+        System.out.print((min/60)+" horas");
     }
 }

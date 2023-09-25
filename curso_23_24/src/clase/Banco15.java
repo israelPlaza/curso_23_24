@@ -10,5 +10,7 @@ public class Banco15 {
         System.out.println("El precio tras el interes es: ");
         interes=(cantidad*20)/100;
         System.out.print((cantidad-interes)+"€");
+        
+        sc.close();
     }
 }

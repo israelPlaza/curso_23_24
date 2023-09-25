@@ -9,6 +9,7 @@ public class Numero8 {
 		System.out.print("Escribe un número número: ");
 		num1= sc.nextInt();
         System.out.println("Su número es: " +num1);
-
+        
+        sc.close();
     }
 }

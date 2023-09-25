@@ -24,6 +24,8 @@ public class curso18 {
 
         System.out.println();
         System.out.println("La nota final es: "+(aux1+aux2+aux3));
+        
+        sc.close();
 
     }
 }

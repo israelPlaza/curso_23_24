@@ -11,5 +11,6 @@ public class Radio12 {
         rad=sc.nextFloat();
         System.out.println("La longitud de la circufenricia es: "+ (2*PI*rad));
         System.out.println("El area del círculo es: "+ (PI*rad));
+        sc.close();
     }
 }

@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class EntradaSalida{
 public static void main(String[] args) {
@@ -12,7 +12,7 @@ public static void main(String[] args) {
     System.out.println(nombre +" "+ edad);
 
 
-
+entrada.close();
 }
 
 }
